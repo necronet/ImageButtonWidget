@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/com.widget.test"
+    xmlns:app="http://schemas.android.com/apk/res/info.necronet.widget.button"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <com.widget.test.ImageDetailButton
+    <info.necronet.widget.button.ImageDetailButton
         android:id="@+id/imageDetailButton1"
         android:layout_width="45dp"
         android:layout_height="51dp"
-        android:src="@drawable/ab_flash"
-        android:background="@drawable/ab_separator_narrow"
+        android:src="@drawable/ic_launcher"
+        android:background="#FFFFFF"
         app:detailColor="@android:color/white"
         app:detailTextSize="7sp"
         app:detailText="1200"
-        app:detailDrawable="@drawable/flash_deals_badge" />
+        app:detailDrawable="@drawable/draw_bg" />
 
 </LinearLayout>
