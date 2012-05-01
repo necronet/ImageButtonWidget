@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<declare-styleable name="ImageDetailButton">
+    <attr name="detailDrawable" format="reference"/>
+    <attr name="detailText" format="string"/>
+    <attr name="detailColor" format="color"/>
+    <attr name="detailTextSize" format="dimension"/>
+</declare-styleable>
+    
+</resources>
